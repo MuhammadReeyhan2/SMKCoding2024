@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanado</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/akar-icons-fonts"></script>
+</head>
+<body>
+    <header class="navbar">
+        <img src="Assets/images/logo.png" alt="" style="height: 45px;">
+        <nav class="nav-links">
+            <a href="#">About us</a>
+            <a href="#">Our Product</a>
+            <a href="#">Delivery</a>
+        </nav>
+        <div class="search-cart">
+            <div class="search-bar">
+                <i class="ai-search"></i>
+                <input type="text" placeholder="Cappuccino">
+            </div>
+            <div class="cart-icon">
+                <i class="ai-cart"></i>
+            </div>
+            
+            <div>
+               <img src="Assets/images/bg-hero.png" alt="" style="position: absolute;
+                z-index: -1;
+                max-width: 30rem;
+                margin-top: -3.8rem;
+                left: 50rem;">
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="text-section">
+               <h1>Enjoy your <span class="highlight">coffee </span>before your activity</h1>
+                <p>Boost your productivity and build your 
+                   mood with a glass of coffee in the morning</p>
+                <div class="hero-buttons">
+                    <button class="order-button">Order now <span class="custom-span"><i class="ai-cart"></i></span></button>
+                    <a href="#" class="more-menu">More menu</a>
+                </div>
+            </div>
+            <div class="image-section">
+                <div class="coffee-image">
+                    <img src="Assets/images/coffe-glass.png" alt="Cappuccino">
+                    <div class="cappuccino-container">
+                        <p class="cappuccino-label">Cappuccino</p>
+                    </div>
+                    <div class="rating-container">
+                        <p class="rating-label">4.8 &#11088;</p>
+                    </div>
+                    <div class="price-container">
+                        <p class="price-label">18K</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="popular-section">
+        <img src="Assets/images/bg-hero-2.png" alt="" style="position: absolute;
+        z-index: -1;
+        max-width: 30rem;
+        margin-top: -5.3rem;
+        left: 0;">
+        <h2>Popular <span>Now</span></h2>
+        <div class="card-container">
+            <!-- Card 1 -->
+            <div id="Popular1" class="card">
+                <img  src="Assets/images/product-1.png" alt="Vanilla Latte">
+                <div class="peringkat">4.8<img src="Assets/Icons/gold-star.svg" alt="Star"></div>
+                <div class="card-content">
+                    <div class="label">
+                        <div class="label-title"><h3>Vanilla Latte</h3></div>
+                        <p class="label-price" style="margin-left: 15px;">21 K</p>
+                    </div>
+                    <div class="tags">
+                        <div class="tag hot">Hot</div>
+                        <div class="tag cold">Cold</div>
+                    </div>
+                </div>
+                <div class="buy-button"><i class="ai-cart"></i></div>
+            </div>
+            <!-- Card 2 -->
+            <div id="Popular2" class="card">
+                <img src="Assets/images/product-2.png" alt="Espresso">
+                <div class="peringkat">4.8<img src="Assets/Icons/gold-star.svg" alt="Star"></div>
+                <div class="card-content">
+                    <div class="label">
+                        <div class="label-title"><h3>Espresso</h3></div>
+                        <p class="label-price" style="margin-left: 30px;">12 K</p>
+                    </div>
+                    <div class="tags">
+                        <div class="tag hot">Hot</div>
+                        <div class="tag cold">Cold</div>
+                    </div>
+                </div>
+                <div class="buy-button"><i class="ai-cart"></i></div>
+            </div>
+            <!-- Card 3 -->
+            <div id="Popular3" class="card">
+                <img src="Assets/images/product-3.png" alt="Hazelnut Latte">
+                <div class="peringkat">4.8<img src="Assets/Icons/gold-star.svg" alt="Star"></div>
+                <div class="card-content">
+                    <div class="label">
+                        <div class="label-title"><h3>Hazelnut Latte</h3></div>
+                        <p class="label-price">23 K</p>
+                    </div>
+                    <div class="tags">
+                        <div class="tag hot">Hot</div>
+                        <div class="tag cold">Cold</div>
+                    </div>
+                </div>
+                <div class="buy-button"><i class="ai-cart"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="delivery-service">
+        <h1>How to use <span class="highlight">delivery service</span></h1>
+        <div class="steps">
+          <!-- Step 1 -->
+          <div class="step">
+            <img src="Assets/images/service-1.png" alt="Choose Coffee" class="icon">
+            <h2>choose your coffee</h2>
+            <p>there are 20+ coffees for you</p>
+          </div>
+          <!-- Step 2 -->
+          <div class="step">
+            <img src="Assets/images/service-2.png" alt="We Deliver" class="icon">
+            <h2>we deliver it to you</h2>
+            <p>Choose delivery service</p>
+          </div>
+          <!-- Step 3 -->
+          <div class="step">
+            <img src="Assets/images/service-3.png" alt="Enjoy Coffee" class="icon">
+            <h2>Enjoy your coffee</h2>
+            <p>Choose delivery service</p>
+          </div>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <div class="about-us-container">
+            <div>
+                <img src="Assets/images/bg-aboutus.png" style="
+                  width: 72rem;
+                  height: none;
+                  z-index: -2;
+                  background-size: 100% 100%;
+                  margin-left: -190px;
+                  justify-content: center;
+                  align-items: center;
+                  background-repeat: no-repeat;" alt="">
+            </div>
+            <div class="about-us-image">
+                <img src="Assets/images/highlight-product.png" alt="Coffee Image">
+            </div>
+            <div class="about-us-content">
+                <h2>About <span>us</span></h2>
+                <p class="about-us-description">We provide quality coffee, and ready to deliver.</p>
+                <p class="about-us-detail">We are a company that makes and distributes delicious drinks. Our main product is made with a secret recipe and available in stores worldwide.</p>
+                <a href="#" class="about-us-button">Get your coffee</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="special-menu">
+        <h1>Special menu <span>for you</span></h1>
+        <div class="menu-container">
+            <!-- Item 1 -->
+            <div class="menu-item">
+                <div class="menu-image">
+                    <img src="Assets/images/product-4.png" alt="Sandwich">
+                    <div class="rating">
+                        <span>4.8</span> <img src="Assets/Icons/gold-star.svg" alt="Star">
+                    </div>
+                </div>
+                <h3>Sandwich</h3>
+                <div class="price">
+                    <span style=" 
+                    font-size: 1.4rem;
+                    position: absolute;
+                    font-weight: bold;
+                    margin-left: 16rem;
+                    margin-top: -27px;">12 K</span>
+                </div>
+                <div class="price-cart">
+                    <p>bread with meat and vegetables</p>
+                    <button><i class="ai-cart"></i></button>
+                </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="menu-item">
+                <div class="menu-image">
+                    <img src="Assets/images/product-5.png" alt="Hot Milk">
+                    <div class="rating">
+                        <span>4.8</span> <img src="Assets/Icons/gold-star.svg" alt="Star">
+                    </div>
+                </div>
+                <h3>Hot Milk</h3>
+                <div class="price">
+                    <span style=" 
+                    font-size: 1.4rem;
+                    position: absolute;
+                    font-weight: bold;
+                    margin-left: 16rem;
+                    margin-top: -27px;">12 K</span>
+                </div>
+                <div class="price-cart">
+                    <p>Hot Milk with less sugar</p>
+                    <button><i class="ai-cart"></i></button>
+                </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="menu-item">
+                <div class="menu-image">
+                    <img src="Assets/images/product-6.png" alt="Hot Milk">
+                    <div class="rating">
+                        <span>4.8</span> <img src="Assets/Icons/gold-star.svg" alt="Star">
+                    </div>
+                </div>
+                <h3>Coffe Ice Cream</h3>
+                <div class="price">
+                    <span style=" 
+                    font-size: 1.4rem;
+                    position: absolute;
+                    font-weight: bold;
+                    margin-left: 16rem;
+                    margin-top: -27px;">12 K</span>
+                </div>
+                <div class="price-cart">
+                    <p>Coffe with ice cream vanilla</p>
+                    <button><i class="ai-cart"></i></button>
+                </div>
+            </div>
+             <!-- Item 4 -->
+            <div class="menu-item">
+                <div class="menu-image">
+                    <img src="Assets/images/product-7.png" alt="Sandwich">
+                    <div class="rating">
+                        <span>4.8</span> <img src="Assets/Icons/gold-star.svg" alt="Star">
+                    </div>
+                </div>
+                <h3>Cappucino</h3>
+                <div class="price">
+                    <span style=" 
+                    font-size: 1.4rem;
+                    position: absolute;
+                    font-weight: bold;
+                    margin-left: 16rem;
+                    margin-top: -27px;">12 K</span>
+                </div>
+                <div class="price-cart">
+                    <p>Hot Cappucino</p>
+                    <button><i class="ai-cart"></i></button>
+                </div>
+            </div>
+            <!-- Item 5 -->
+            <div class="menu-item">
+                <div class="menu-image">
+                    <img src="Assets/images/product-8.png" alt="Hot Milk">
+                    <div class="rating">
+                        <span>4.8</span> <img src="Assets/Icons/gold-star.svg" alt="Star">
+                    </div>
+                </div>
+                <h3>Moccacinno</h3>
+                <div class="price">
+                    <span style=" 
+                    font-size: 1.4rem;
+                    position: absolute;
+                    font-weight: bold;
+                    margin-left: 16rem;
+                    margin-top: -27px;">12 K</span>
+                </div>
+                <div class="price-cart">
+                    <p>Hot Moccacinno</p>
+                    <button><i class="ai-cart"></i></button>
+                </div>
+            </div>
+            <!-- Item 6 -->
+            <div class="menu-item">
+                <div class="menu-image">
+                    <img src="Assets/images/product-9.png" alt="Hot Milk">
+                    <div class="rating">
+                        <span>4.8</span> <img src="Assets/Icons/gold-star.svg" alt="Star">
+                    </div>
+                </div>
+                <h3>Waffle Ice Cream</h3>
+                <div class="price">
+                    <span style=" 
+                    font-size: 1.4rem;
+                    position: absolute;
+                    font-weight: bold;
+                    margin-left: 16rem;
+                    margin-top: -27px;">12 K</span>
+                </div>
+                <div class="price-cart">
+                    <p>Waffle with ice cream</p>
+                    <button><i class="ai-cart"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-section">
+        <div class="testimonial-container">
+            <div>
+                <img src="Assets/images/bg-testimonial.png" style="
+                  width: 48rem;
+                  height: none;
+                  z-index: -2;
+                  background-size: 100% 100%;
+                  margin-left: 5rem;
+                  justify-content: center;
+                  align-items: center;
+                  background-repeat: no-repeat;" alt="">
+            </div>
+            <!-- Title -->
+            <div class="testimonial-header">
+                <h1>What they say about us</h1>
+                <p>We always provide the best service and always maintain the quality of coffee</p>
+            </div>
+            <!-- Testimonials -->
+            <div class="testimonial-cards">
+                <!-- Card 1 -->
+                <div class="testimonial-card">
+                    <img src="Assets/images/testimonial-1.png" style="width: 195px; height: 252px;" alt="Naura">
+                    <div class="testimonial-cont">
+                        <div class="testimonial-content">
+                            <h3 class="testimonial-name">Naura</h3>
+                            <p class="testimonial-text">I really love the cappuccino, the coffee was very smooth</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- Card 2 -->
+                <div class="testimonial-card">
+                    <img src="Assets/images/testimonial-2.png" alt="John">
+                    <div class="testimonial-cont">
+                        <div class="testimonial-content">
+                            <h3 class="testimonial-name">John</h3>
+                            <p class="testimonial-text">This coffee shop is very convenient</p>
+                        </div>
+                    </div>
+                    <div class="indicator-container">
+                        <div class="indicator active"></div>
+                        <div class="indicator"></div>
+                        <div class="indicator"></div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="testimonial-card">
+                    <img src="Assets/images/testimonial-3.png" alt="Azura">
+                    <div class="testimonial-cont">
+                        <div class="testimonial-content">
+                            <h3 class="testimonial-name">Azura</h3>
+                            <p class="testimonial-text">The coffee menu here is very much</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="subscribe-section">
+        <div class="subscribe-content">
+            <h1>Subscribe to get 50% discount price</h1>
+            <form class="subscribe-form">
+                <input type="email" placeholder="Email address" required>
+                <button type="submit">Order now</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
