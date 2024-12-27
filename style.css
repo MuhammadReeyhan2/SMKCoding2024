@@ -273,6 +273,7 @@ body {
   justify-content: center;
   background-color: #ffb26f;
   margin-top: 8rem;
+  gap: 50px;
   padding-bottom: 5rem;
   border-radius: 50px;
 }
@@ -285,7 +286,7 @@ body {
   width: 300px;
   padding: 20px;
   position: relative;
-  margin-top: -6rem;
+  margin-top: -5em;
 }
 
 .card img {
